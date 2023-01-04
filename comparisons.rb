@@ -54,22 +54,30 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 
 puts 4 < 9
 #YOU DO: Explain.
-# This line of code is evaluating whether or not the line of code 
+# This line of code is evaluating whether or not the line of code is a true statement and 4 is in fact less 
+# than 9. The comparison will evaluate to "true".
 
 books = 3
 puts 4 < books
 # YOU DO: Explain.
+# The defined variable in this set of code is books = 3. The comparison on the next line is evaluating whether or not
+# the defined variable is greater than 4, this comparison will evaluate to false.
 
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
+# this time we have two variables defined, those being friends and siblings being equal to 6 and 2 respectively.
+# the comparison being used this time is to evaluate whether freinds is greater than siblings. With friends being 
+# 6 and siblings being 2 this will evaluate to true.
 
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
-
+# Here again there are two variables defined in this set of code those being antendees and meals with values of 9 and 8
+# respectivley. This time however becasue of the "!=" comparission it is looking to see if the two value assinged to meals
+# and attendees do not equal each other. In this case the comparison will come back as a true statement.
 
 #-------------------
 # PART 3: Logical Operators
