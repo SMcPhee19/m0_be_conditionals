@@ -99,15 +99,22 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+puts loves_to_play && loves_treats
+# this statement is true
 
 # Determine if the dog loves to play and loves the dog park
-
+puts loves_to_play && loves_dog_park
+# this statement is false. The dog does not like the dog park so it cannot like both to play and the dog park.
 
 # Determine if the dog loves to play or loves the dog park
-
+puts loves_dog_park || loves_to_play
+# this statement is true. The dog love to play but does not love the dog park.
 
 # Determine if the dog loves to play and is a puppy
+# Is assumed the dog is a puppy because age is defined as 1 year old, but not findable given the information.
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
 # ANSWER:
+# Traceback (most recent call last):main.rb:13:in `<main>': undefined local variable or method `puppy' for main:Object (NameError)
+# Because "puppy" was not a defined variable above the statement `loves_to_play && puppy` will not yeild any results even though it is
+# assumed that the dog is a puppy becuase of the age that was defined as a value above.
