@@ -54,6 +54,7 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 
 puts 4 < 9
 #YOU DO: Explain.
+# This line of code is evaluating whether or not the line of code 
 
 books = 3
 puts 4 < books
